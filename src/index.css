@@ -1,0 +1,93 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#todoTitle{
+  margin-top: 0;
+  background-color: navy;
+  padding:7px;
+  color: white;
+  text-align: center;
+}
+
+#inputTask {
+  margin-top: 20px;
+  width: 300px;
+  height: 200px;
+  font-size: 20px;
+}
+.addBtn {
+  margin-top: 10px;
+  padding: 5px 105px;
+  color: white;
+  background-color: navy;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+#mainCont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.task-button {
+  font-size: 18px;
+  padding: 6px 19px;
+  border-radius: 1px 10px;
+  color: white;
+  display: flex;
+  gap: 10px;
+  border: none;
+}
+
+.task-button:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.task-cont {
+  margin: 18px;
+  padding:10px;
+  max-height: 300px;
+  width:700px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  display: block;
+}
+
+.hide-cont{
+  display:none;
+}
+
+.taskCont{
+     display:flex;
+     justify-content: space-between;
+     align-items: center;
+     border-left:5px solid red;
+     margin-top: 5px;
+}
+
+.button-grp{
+  display: flex;
+  gap:10px;
+}
+
+.taskPara-class{
+color : navy;
+font-size :20px;
+margin-left : 8px;
+}
+
+#deleteBtn, #cancelBtn{
+  background-color: orangered;
+}
+
+#editBtn, #saveBtn{
+  background-color: navy;
+}
+
+
+#update-div{
+  border: 1px navy;
+}
